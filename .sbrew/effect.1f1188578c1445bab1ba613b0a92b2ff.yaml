@@ -1,0 +1,112 @@
+﻿FormatVersion: 7
+Name: "SongLyric 1"
+Script: "SongLyric"
+Multithreaded: No
+Config:
+  FontName:
+    Type: "System.String"
+    Value: "Kurinto Text SC"
+    DisplayName: "Font Name"
+    BeginsGroup: "Font"
+  FontPath:
+    Type: "System.String"
+    Value: "sb/fonts"
+    DisplayName: "Font Path"
+  FontSize:
+    Type: "System.Int32"
+    Value: "40"
+    DisplayName: "Font Size"
+  FontScale:
+    Type: "System.Single"
+    Value: "0.5"
+    DisplayName: "Font Scale"
+  FontColor:
+    Type: "OpenTK.Graphics.Color4"
+    Value: "1,1,1,1"
+    DisplayName: "Font Color"
+  FontStyle:
+    Type: "System.Int32"
+    Value: "0"
+    DisplayName: "Font Style"
+    AllowedValues:
+      Regular: "0"
+      Bold: "1"
+      Italic: "2"
+      Underline: "4"
+      Strikeout: "8"
+  OutlineThickness:
+    Type: "System.Int32"
+    Value: "0"
+    DisplayName: "Outline Thickness"
+    BeginsGroup: "Outline"
+  OutlineColor:
+    Type: "OpenTK.Graphics.Color4"
+    Value: "0.3196512,0.09604241,0.09604241,0"
+    DisplayName: "Outline Color"
+  ShadowThickness:
+    Type: "System.Int32"
+    Value: "0"
+    DisplayName: "Shadow Thickness"
+    BeginsGroup: "Shadow"
+  ShadowColor:
+    Type: "OpenTK.Graphics.Color4"
+    Value: "0,0,0,0.4836031"
+    DisplayName: "Shadow Color"
+  GlowRadius:
+    Type: "System.Int32"
+    Value: "5"
+    DisplayName: "Glow Radius"
+    BeginsGroup: "Glow"
+  GlowColor:
+    Type: "OpenTK.Graphics.Color4"
+    Value: "0.6523571,0.8089952,1,0.6875433"
+    DisplayName: "Glow Color"
+  GlowAdditive:
+    Type: "System.Boolean"
+    Value: "True"
+    DisplayName: "Glow Additive"
+  PerCharacter:
+    Type: "System.Boolean"
+    Value: "True"
+    DisplayName: "Per Character"
+    BeginsGroup: "Misc"
+  TrimTransparency:
+    Type: "System.Boolean"
+    Value: "True"
+    DisplayName: "Trim Transparency"
+  EffectsOnly:
+    Type: "System.Boolean"
+    Value: "False"
+    DisplayName: "Effects Only"
+  Padding:
+    Type: "OpenTK.Vector2"
+    Value: "6,0"
+  Origin:
+    Type: "System.Int32"
+    Value: "4"
+    AllowedValues:
+      TopLeft: "0"
+      TopCentre: "1"
+      TopRight: "2"
+      CentreLeft: "3"
+      Centre: "4"
+      CentreRight: "5"
+      BottomLeft: "6"
+      BottomCentre: "7"
+      BottomRight: "8"
+  RandomSeed:
+    Type: "System.Int32"
+    Value: "0"
+    DisplayName: "Random Seed"
+    BeginsGroup: "Common"
+Layers:
+  161ddbcdb55d4252ad1219538ff2d03a:
+    Name: "glow"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  9cd0e4a67d8141a0b20aec6800f230c5:
+    Name: ""
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes

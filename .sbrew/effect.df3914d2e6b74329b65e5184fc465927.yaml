@@ -1,0 +1,59 @@
+﻿FormatVersion: 7
+Name: "BuildUpP2 1"
+Script: "BuildUpP2"
+Multithreaded: No
+Config:
+  SeaColor:
+    Type: "OpenTK.Graphics.Color4"
+    Value: "0.1058824,0.2941177,0.6431373,1"
+    DisplayName: "Sea Color"
+    BeginsGroup: "Colors"
+  RomaColor:
+    Type: "OpenTK.Graphics.Color4"
+    Value: "1,1,1,1"
+    DisplayName: "Roma Color"
+  LightColor:
+    Type: "OpenTK.Graphics.Color4"
+    Value: "0.2078431,0.4745098,0.9607843,1"
+    DisplayName: "Light Color"
+  FlarePosition:
+    Type: "OpenTK.Vector2"
+    Value: "393,292"
+    DisplayName: "Flare Position"
+    BeginsGroup: "FlarePosition"
+  LoopLength:
+    Type: "System.Int32"
+    Value: "16"
+    DisplayName: "Loop Length"
+    BeginsGroup: "Timing"
+  RandomSeed:
+    Type: "System.Int32"
+    Value: "1324134"
+    DisplayName: "Random Seed"
+    BeginsGroup: "Common"
+Layers:
+  5b7d68179a4444c5b9739247f47dfe4c:
+    Name: "BG"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  f9ac7e4bf5f54eb88c359104fa839634:
+    Name: "FurinaLightBurst"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  731aa0afdec744bf9bb7e609d2a05f03:
+    Name: "Roma"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  bb3a1c8b12f348d08a2ef87a175684de:
+    Name: "Furina"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  299da6e4f1fd450b8443177ecc68b27a:
+    Name: "Effect"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes

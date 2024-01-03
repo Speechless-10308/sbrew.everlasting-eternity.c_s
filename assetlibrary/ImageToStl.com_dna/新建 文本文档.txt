@@ -1,0 +1,15 @@
+This is the best parameters for this model, just copy below and paste in the storybrew.
+
+assetlibrary\ImageToStl.com_dna\dna.obj
+
+1000
+
+0.2
+
+X/Y depends
+
+0.4 tilt
+
+start/end time depends
+
+3000

@@ -1,0 +1,55 @@
+﻿FormatVersion: 7
+Name: "DeepSea 4"
+Script: "DeepSea"
+Multithreaded: No
+Config:
+  SeaColor:
+    Type: "OpenTK.Graphics.Color4"
+    Value: "0.1058824,0.2941177,0.6431373,0.9176471"
+    DisplayName: "Sea Color"
+    BeginsGroup: "Colors"
+  BubbleColor:
+    Type: "OpenTK.Graphics.Color4"
+    Value: "0.1294118,0.2392157,0.7764706,1"
+    DisplayName: "Bubble Color"
+  FlareColor:
+    Type: "OpenTK.Graphics.Color4"
+    Value: "0.2509804,0.4745098,0.7686275,1"
+    DisplayName: "Flare Color"
+  LightColor:
+    Type: "OpenTK.Graphics.Color4"
+    Value: "0.01568628,0.1686275,0.5568628,0.454902"
+    DisplayName: "Light Color"
+  Light2Color:
+    Type: "OpenTK.Graphics.Color4"
+    Value: "0.4196078,0.4784314,0.7686275,0.5137255"
+    DisplayName: "Light 2 Color"
+  StartTime:
+    Type: "System.Double"
+    Value: "383460"
+    DisplayName: "Start Time"
+    BeginsGroup: "Timing"
+  EndTime:
+    Type: "System.Double"
+    Value: "418988"
+    DisplayName: "End Time"
+  LoopLength:
+    Type: "System.Int32"
+    Value: "16"
+    DisplayName: "Loop Length"
+  RandomSeed:
+    Type: "System.Int32"
+    Value: "0"
+    DisplayName: "Random Seed"
+    BeginsGroup: "Common"
+Layers:
+  32be0294431c4241a80a41393403ac9a:
+    Name: "Sea"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  da2c141f45804e6b813710006152c1eb:
+    Name: "Effect"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes

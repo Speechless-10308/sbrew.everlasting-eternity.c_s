@@ -1,0 +1,58 @@
+﻿FormatVersion: 7
+Name: "Credit 1"
+Script: "Credit"
+Multithreaded: No
+Config:
+  FontName:
+    Type: "System.String"
+    Value: "Hollirood-Personal use"
+    DisplayName: "Font Name"
+  FontPath:
+    Type: "System.String"
+    Value: "sb/fonts"
+    DisplayName: "Font Path"
+  FontSize:
+    Type: "System.Int32"
+    Value: "50"
+    DisplayName: "Font Size"
+  Padding:
+    Type: "OpenTK.Vector2"
+    Value: "10,0"
+  Origin:
+    Type: "System.Int32"
+    Value: "4"
+    AllowedValues:
+      TopLeft: "0"
+      TopCentre: "1"
+      TopRight: "2"
+      CentreLeft: "3"
+      Centre: "4"
+      CentreRight: "5"
+      BottomLeft: "6"
+      BottomCentre: "7"
+      BottomRight: "8"
+  FontColor:
+    Type: "OpenTK.Graphics.Color4"
+    Value: "0.8690293,0.9000223,1,1"
+    DisplayName: "Font Color"
+  RandomSeed:
+    Type: "System.Int32"
+    Value: "0"
+    DisplayName: "Random Seed"
+    BeginsGroup: "Common"
+Layers:
+  6072365c1f774e29a283882cd3f95826:
+    Name: "Credit"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  426ce78f18e94e98949b57b265182064:
+    Name: "Clock"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  fcfb4322eb544928936357fd3b1c3916:
+    Name: "Author"
+    OsbLayer: Foreground
+    DiffSpecific: Yes
+    Visible: Yes
