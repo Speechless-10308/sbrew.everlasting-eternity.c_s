@@ -184,12 +184,12 @@ namespace StorybrewScripts
             generatePerCharacter(font, creditLayer, true, new Vector2(320, 240), "Mirsaaa & Hidden is fun", drumStartTime + 200, blackFadeTime, 0, 0.3f);
 
             // next let the clock show!
-            var clock = new StoryboardClock(GetLayer("Clock"), @"sb\clock\roman clock.png", @"sb\clock\ch2.png", @"sb\clock\c.png", @"sb\clock\ch1.png", new Vector2(320, 240), OsbOrigin.BottomCentre);
+            var clock = new StoryboardClock(GetLayer("Clock"), @"sb\clock\clock.png", @"sb\clock\ch2.png", @"sb\clock\c.png", @"sb\clock\ch1.png", new Vector2(320, 240), OsbOrigin.BottomCentre);
 
             var clockStartTime = 30148;
 
             clock.ClockFade(OsbEasing.InSine, clockStartTime, clockStartTime + 4 * beatDuration, 0, 0.4);
-            clock.ClockScale(OsbEasing.InOutSine, clockStartTime, clockStartTime + 4 * beatDuration, 0.3, 0.5, 0.4, 0.4);
+            clock.ClockScale(OsbEasing.InOutSine, clockStartTime, clockStartTime + 4 * beatDuration, 0.25, 0.4, 0.4, 0.5);
 
             // generate the clock timer
             var timingList = new List<double> {};
@@ -236,9 +236,9 @@ namespace StorybrewScripts
             sideBar.Fade(48319, 48319+170, 0.8, 0);
 
             // in 383460 the mapper wants to also use clock
-            var clock2 = new StoryboardClock(GetLayer("Clock"), @"sb\clock\roman clock.png", @"sb\clock\ch2.png", @"sb\clock\c.png", @"sb\clock\ch1.png", new Vector2(320, 240), OsbOrigin.BottomCentre);
+            var clock2 = new StoryboardClock(GetLayer("Clock"), @"sb\clock\clock.png", @"sb\clock\ch2.png", @"sb\clock\c.png", @"sb\clock\ch1.png", new Vector2(320, 240), OsbOrigin.BottomCentre);
             clock2.ClockFade(OsbEasing.InSine, 383460, 383460 + 1 * beatDuration, 0, 0.4);
-            clock2.ClockScale(OsbEasing.None, 383460, 383460 + 1 * beatDuration, 0.5, 0.5, 0.4, 0.4);
+            clock2.ClockScale(OsbEasing.None, 383460, 383460 + 1 * beatDuration, 0.25, 0.4, 0.4, 0.5);
 
             rotateStartTime = 395137;
             rotateEndTime  = 406988;

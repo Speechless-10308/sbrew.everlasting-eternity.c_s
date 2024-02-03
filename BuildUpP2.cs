@@ -131,7 +131,7 @@ namespace StorybrewScripts
                 flare.EndGroup();
             }
 
-            var burstStartTime = bgStartShowTime - 1000;
+            var burstStartTime = bgStartShowTime - 500;
             var burstEndTime = bgEndShowTime;
             var burstList = new List<double>();
             foreach (var hitObj in Beatmap.HitObjects)

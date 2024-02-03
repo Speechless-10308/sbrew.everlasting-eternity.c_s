@@ -138,7 +138,7 @@ namespace StorybrewScripts
             {
                 if (hitObj.StartTime < burstStartTime || hitObj.StartTime > burstEndTime) continue;
                 Log($"hitObj.StartTime: {hitObj.StartTime}  hitObj.SamplePath: {hitObj.SamplePath}  hitObj.Additions: {hitObj.Additions}");
-                if (hitObj.Additions == HitSoundAddition.Clap || hitObj.SamplePath == "Snare3.wav")
+                if (hitObj.Additions == HitSoundAddition.Clap || hitObj.SamplePath == "Snare3.ogg")
                 {
                     burstList.Add(hitObj.StartTime);
                 }

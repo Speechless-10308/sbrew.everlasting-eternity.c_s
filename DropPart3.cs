@@ -165,7 +165,7 @@ namespace StorybrewScripts
             {
                 if (hitObj.StartTime < burstStartTime || hitObj.StartTime > burstEndTime) continue;
                 Log($"hitObj.StartTime: {hitObj.StartTime}  hitObj.SamplePath: {hitObj.SamplePath}  hitObj.Additions: {hitObj.Additions}");
-                if (hitObj.Additions == HitSoundAddition.Clap || hitObj.SamplePath == "Snare3.wav")
+                if (hitObj.Additions == HitSoundAddition.Clap || hitObj.SamplePath == "Snare3.ogg")
                 {
                     burstList.Add(hitObj.StartTime);
                 }
@@ -260,7 +260,7 @@ namespace StorybrewScripts
                 foreach (var hitObject in Beatmap.HitObjects)
                 {
                     if (hitObject.StartTime < totalStartTime || hitObject.StartTime > totalEndTime) continue;
-                    if (hitObject.Additions == HitSoundAddition.Clap || hitObject.SamplePath == "Snare3.wav")
+                    if (hitObject.Additions == HitSoundAddition.Clap || hitObject.SamplePath == "Snare3.ogg")
                     {
                         if (previousTime == hitObject.StartTime) continue;
                         ClapList.Add(hitObject.StartTime);

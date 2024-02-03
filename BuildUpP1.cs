@@ -132,14 +132,14 @@ namespace StorybrewScripts
                 flare.EndGroup();
             }
 
-            var burstStartTime = bgStartShowTime - 1000;
+            var burstStartTime = bgStartShowTime - 500;
             var burstEndTime = bgEndShowTime;
             var burstList = new List<double>();
             foreach (var hitObj in Beatmap.HitObjects)
             {
                 if (hitObj.StartTime < burstStartTime || hitObj.StartTime > burstEndTime) continue;
                 Log($"hitObj.StartTime: {hitObj.StartTime}  hitObj.SamplePath: {hitObj.SamplePath}  hitObj.Additions: {hitObj.Additions}");
-                if (hitObj.Additions == HitSoundAddition.Clap || hitObj.SamplePath == "Snare3.wav")
+                if (hitObj.Additions == HitSoundAddition.Clap || hitObj.SamplePath == "Snare3.ogg")
                 {
                     burstList.Add(hitObj.StartTime);
                 }

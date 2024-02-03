@@ -147,11 +147,11 @@ namespace StorybrewScripts
             {
                 if (hitObj.StartTime < burstStartTime || hitObj.StartTime > burstEndTime) continue;
                 Log($"hitObj.StartTime: {hitObj.StartTime}  hitObj.SamplePath: {hitObj.SamplePath}  hitObj.Additions: {hitObj.Additions}");
-                if (hitObj.Additions == HitSoundAddition.Clap || hitObj.SamplePath == "Snare2.wav")
+                if (hitObj.Additions == HitSoundAddition.Clap || hitObj.SamplePath == "Snare2.ogg")
                 {
                     burstList.Add(hitObj.StartTime);
                 }
-                if (hitObj.Additions == HitSoundAddition.Whistle || hitObj.SamplePath == "soft-hitwhistle.wav")
+                if (hitObj.Additions == HitSoundAddition.Whistle || hitObj.SamplePath == "soft-hitwhistle.ogg")
                 {
                     whistleList.Add(hitObj.StartTime);
                 }
